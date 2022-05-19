@@ -40,7 +40,7 @@ function App() {
         
         
 
-        <button className="novoBotao" onClick={() => setVisivel('secundario')}>Meus Calculos</button>
+        <button className="botaoPadrao" onClick={() => setVisivel('secundario')}>Meus Calculos</button>
 
       </div>
         ): 
@@ -50,7 +50,7 @@ function App() {
             <ResultadosAnteriores 
               resultados={listaResultados}
               key={resultado.id}/>
-            <button className="novoBotao" onClick={() => setVisivel('principal')}>Voltar</button>
+            <button className="botaoPadrao" onClick={() => setVisivel('principal')}>Voltar</button>
           </div>
       
         )}
