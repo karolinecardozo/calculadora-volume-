@@ -1,0 +1,14 @@
+.container {
+    background-color: rgb(98, 108, 109);
+}
+
+.listaResultados li {
+    background-color: #4D4D4D;
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px #0000009F;
+    padding: 12px;
+    margin: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
