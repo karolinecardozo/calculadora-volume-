@@ -1,0 +1,16 @@
+.inputContainer {
+   box-sizing: border-box;
+   font-size: 1rem;
+   margin: 10px 10px;
+   padding: 10px;
+   display:inline-block;
+}
+
+.inputContainer .titulo {
+    margin: 10px 20px;
+}
+
+.comprimento {
+    padding: 6px 10px;
+    width: 50px;
+}
