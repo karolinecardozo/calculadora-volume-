@@ -4,7 +4,7 @@ import Botao from './componentes/Botao';
 import Input from './componentes/InputMedidas';
 import Resultado from './componentes/Resultado'
 import ResultadosAnteriores from "./componentes/ResultadosAnteriores";
-import imagem from "../src/assets/18860936_mzW6v.jpeg"
+
 
 function App() {
   const [comprimento, setComprimento] = useState(0);
@@ -38,21 +38,15 @@ function App() {
           <Resultado resultado={resultado}/>
         </div>
         
-        <div>
-          <ResultadosAnteriores 
-          resultados={listaResultados}
-          key={resultado.id}
-          />
-        </div>
+        
 
-        <button className="novoBotao" onClick={() => setVisivel('secundario')}>Verificar</button>
+        <button className="novoBotao" onClick={() => setVisivel('secundario')}>Meus Calculos</button>
 
       </div>
         ): 
         ( 
           <div>
-            <h2>VERIFICANDO</h2>
-            <img className="imagem" src={imagem} />
+            <h2>Calculos Anteriores</h2>
             <ResultadosAnteriores 
               resultados={listaResultados}
               key={resultado.id}/>
