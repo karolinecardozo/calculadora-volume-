@@ -19,8 +19,8 @@ function App() {
     <div>
       {visivel === 'principal'? (
       <div>
-        <div className="titulo">
-            <h1>Calcule o Volume do seu Aquario</h1>
+        <div>
+            <h2 className="titulo">Calcule o Volume do seu Aquario</h2>
         </div>
 
         <div className="container">
@@ -46,7 +46,7 @@ function App() {
         ): 
         ( 
           <div>
-            <h2>Calculos Anteriores</h2>
+            <h2 className="titulo">Calculos Anteriores</h2>
             <ResultadosAnteriores 
               resultados={listaResultados}
               key={resultado.id}/>
